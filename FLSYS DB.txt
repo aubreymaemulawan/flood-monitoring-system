@@ -1,0 +1,52 @@
+DEVICE
+id
+device_name (unique)
+location (unique)
+created_at
+updated_at
+
+WATER_LEVEL (data from device)
+id
+device_id - (fk)
+height - float
+color
+created_at
+updated_at
+
+REGISTERED_NUMBERS (data from landing page)
+id
+device_id - (fk)
+contact_number - (unique)
+created_at
+updated_at
+
+USERS
+id
+name
+email
+email_verified_at
+password
+user_type
+remember_token
+created_at
+updated_at
+
+LOGS
+id
+action_type 
+(
+1 manage device [1.1 add,1.2 update,1.3 delete],
+2 export data 
+3 generate_report [3.1 water level report, 3.2 registered num report],
+4 update password
+5 user [5.1 logged in, 5.2 logged out]
+)
+data_id
+status [success, error]
+created_at
+updated_at
+
+WEBSITE
+
+
+

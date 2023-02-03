@@ -1,0 +1,21 @@
+
+GOOGLE ACCOUNT
+first name: Flood Monitoring
+last name: System
+email: flsys.ph@gmail.com
+pass: flsys@123
+
+000WEBHOST
+(Project)
+name: flsys
+pass: flsys@123
+
+(Database)
+name: id19886967_flsys
+username: id19886967_flood_monitor
+pass: 4Ns3@)NQ#sb0X#e+
+
+(Website)
+url: https://flsys.000webhostapp.com/
+
+note: Use the Google Account credentials to log into 000Webhost.
